@@ -1,9 +1,8 @@
-Detection fake news using Machine Learning Calssification.
+Detection fake news using Machine Learning Classification.
 
-Newse are calssified using logistic regression ML model.
+News are classified using logistic regression ML model. For processing data Stemming and vectorization is done.
 
-First data is preproccesed then stop words are removed and Stemming is done(words are converted to root word).
+First data is pre-processed then stop words are removed and Stemming is done(words are converted to root word).
+Then data is transformed in vectorization by making Tf-Idf vector.
 
-Then data is transformed in vectorization by making TfIdf vecotor.
-
-At last news is pridected by label.
+At last news is predicted by label.
